@@ -1,0 +1,27 @@
+/* 로고 화면 스타일 */
+#logo-screen {
+    display: none; /* 처음에는 보이지 않도록 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 9999; /* 모든 다른 요소들 위에 표시 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #logo-screen img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  #intro-logo.zoom-in {
+    transform: translate(-50%, -50%) scale(3);
+  }
+  
+  .hidden {
+    display: none;
+  }
